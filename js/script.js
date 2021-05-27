@@ -20,9 +20,16 @@ console.log('Gracz wpisał: ' + playerInput);
 
 let playerMove = 'nieznany ruch';
 
-if(playerInput == '1'){
+if( playerInput == '1'){
   playerMove = 'kamień';
+} else if (playerInput == '2'){
+    playerMove = 'papier';
+} else (playerInput == '3') {
+    playerMove = 'nożyce';
 }
 
 printMessage('Twój ruch to: ' + playerMove);
 
+if( computerMove == 'kamień' && playerMove == 'papier'){
+    printMessage('Ty wygrywasz!');
+  }
