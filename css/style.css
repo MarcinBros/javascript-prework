@@ -1,0 +1,13 @@
+
+
+#play-rock, #play-paper, #play-scissors{
+    background-color: goldenrod;
+    height: 100px;
+    width: 100px;
+    font-size: large;
+    
+}
+
+h1 {
+    color: blue;
+}
